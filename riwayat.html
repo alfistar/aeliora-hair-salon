@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Aeliora Hair Salon - Riwayat</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/mini-logo.png" rel="icon">
+  <link href="assets/img/mini-logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style_riwayat.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Rapid
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">
+        <img src="assets/img/logo.png" alt="">
+      </a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link" href="index.html">Beranda</a></li>
+          <li><a class="nav-link" href="layanan.html">Layanan</a></li>
+          <li><a class="nav-link" href="galeri.html">Galeri</a></li>
+          <li><a class="nav-link" href="booking.html">Booking</a></li>
+          <li><a class="nav-link active" href="riwayat.html">Riwayat</a></li>
+          <li><a class="nav-link" href="#footer">Kontak</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+  <!-- Konten -->
+  <section id="judul">
+
+    <div class="container">
+
+      <div class="history-header">
+        <h2>Riwayat Pesanan</h2>
+        <p>
+          Lihat status booking dan layanan yang pernah Anda pesan.
+        </p>
+      </div>
+
+      <!-- Filter -->
+      <div class="history-filter text-center">
+        <button class="active" data-filter="all">Semua</button>
+        <button data-filter="proses">Proses</button>
+        <button data-filter="selesai">Selesai</button>
+      </div>
+
+      <!-- Tabel -->
+      <div class="history-table">
+
+        <div class="table-responsive">
+
+          <table class="table align-middle">
+
+            <thead>
+              <tr>
+                <th>ID Booking</th>
+                <th>Tanggal</th>
+                <th>Layanan</th>
+                <th>Jam</th>
+                <th>Total</th>
+                <th>Status</th>
+                <th>Aksi</th>
+              </tr>
+            </thead>
+
+            <tbody>
+
+              <tr class="history-item proses">
+                <td>#BK001</td>
+                <td>15 Juni 2026</td>
+                <td>Hair Coloring</td>
+                <td>10:00</td>
+                <td>Rp250.000</td>
+
+                <td>
+                  <span class="status proses">
+                    Proses
+                  </span>
+                </td>
+
+                <td>
+
+                  <button class="btn-action detail" data-bs-toggle="modal" data-bs-target="#detailBooking1">
+                    Detail
+                  </button>
+
+                  <button class="btn-action edit">
+                    Edit
+                  </button>
+
+                  <button class="btn-action cancel">
+                    Batal
+                  </button>
+
+                </td>
+              </tr>
+
+              <tr class="history-item selesai">
+                <td>#BK002</td>
+                <td>10 Juni 2026</td>
+                <td>Hair Spa</td>
+                <td>13:00</td>
+                <td>Rp150.000</td>
+
+                <td>
+                  <span class="status selesai">
+                    Selesai
+                  </span>
+                </td>
+
+                <td>
+
+                  <button class="btn-action detail">
+                    Detail
+                  </button>
+
+                  <button class="btn-action rating">
+                    Rating
+                  </button>
+
+                </td>
+              </tr>
+
+              <tr class="history-item selesai">
+                <td>#BK003</td>
+                <td>08 Juni 2026</td>
+                <td>Creambath</td>
+                <td>15:00</td>
+                <td>Rp130.000</td>
+
+                <td>
+                  <span class="status selesai">
+                    Selesai
+                  </span>
+                </td>
+
+                <td>
+
+                  <button class="btn-action detail">
+                    Detail
+                  </button>
+
+                  <button class="btn-action rating">
+                    Rating
+                  </button>
+
+                </td>
+              </tr>
+
+              <tr class="history-item proses">
+                <td>#BK004</td>
+                <td>20 Juni 2026</td>
+                <td>Hair Styling</td>
+                <td>11:00</td>
+                <td>Rp180.000</td>
+
+                <td>
+                  <span class="status proses">
+                    Proses
+                  </span>
+                </td>
+
+                <td>
+
+                  <button class="btn-action detail">
+                    Detail
+                  </button>
+
+                  <button class="btn-action edit">
+                    Edit
+                  </button>
+
+                  <button class="btn-action cancel">
+                    Batal
+                  </button>
+
+                </td>
+              </tr>
+
+            </tbody>
+
+          </table>
+
+        </div>
+
+      </div>
+
+      <!-- Modal Detail Booking -->
+      <div class="modal fade" id="detailBooking1" tabindex="-1">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+          <div class="modal-content">
+
+            <div class="modal-header">
+
+              <h5 class="modal-title">
+                Detail Booking
+              </h5>
+
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal">
+              </button>
+
+            </div>
+
+            <div class="modal-body">
+
+              <div class="detail-item">
+                <strong>ID Booking</strong>
+                <span>BK001</span>
+              </div>
+
+              <div class="detail-item">
+                <strong>Nama</strong>
+                <span>Alfi Siti Dwianti</span>
+              </div>
+
+              <div class="detail-item">
+                <strong>Layanan</strong>
+                <span>Hair Coloring</span>
+              </div>
+
+              <div class="detail-item">
+                <strong>Tanggal</strong>
+                <span>15 Juni 2026</span>
+              </div>
+
+              <div class="detail-item">
+                <strong>Jam</strong>
+                <span>10.00 WIB</span>
+              </div>
+
+              <div class="detail-item">
+                <strong>Total</strong>
+                <span>Rp250.000</span>
+              </div>
+
+              <div class="detail-item">
+                <strong>Status</strong>
+                <span class="status proses">
+                  Proses
+                </span>
+              </div>
+
+              <div class="detail-item">
+                <strong>Catatan</strong>
+                <span>
+                  Pewarnaan warna coklat ash.
+                </span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="section-bg">
+    <div class="footer-top py-5">
+      <div class="container">
+        <div class="row gy-4">
+          <!-- Brand -->
+          <div class="col-lg-5">
+            <h3>AELIORA Hair Salon</h3>
+            <p>
+              Salon rambut profesional yang menghadirkan layanan styling,
+              coloring, dan treatment untuk membantu setiap pelanggan tampil
+              lebih percaya diri dengan rambut yang sehat dan indah.
+            </p>
+          </div>
+          <!-- Jam Operasional -->
+          <div class="col-lg-3">
+            <h4>Jam Operasional</h4>
+            <ul class="list-unstyled">
+              <li>Senin : 09.00 - 20.00</li>
+              <li>Selasa : 09.00 - 20.00</li>
+              <li>Rabu : 09.00 - 20.00</li>
+              <li>Kamis : 09.00 - 20.00</li>
+              <li>Jumat : 09.00 - 20.00</li>
+              <li>Sabtu : 08.00 - 21.00</li>
+              <li>Minggu : 08.00 - 18.00</li>
+            </ul>
+          </div>
+          <!-- Kontak -->
+          <div class="col-lg-4">
+            <h4>Hubungi Kami</h4>
+            <p>
+              <strong>Alamat</strong><br>
+              Jl. Raya Surabaya No. 123<br>
+              Surabaya, Jawa Timur<br><br>
+              <strong>WhatsApp</strong><br>
+              0812-3456-7890<br><br>
+              <strong>Email</strong><br>
+              info@hairstudio.com
+            </p>
+            <div class="social-links mt-3">
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-tiktok"></i></a>
+              <a href="#"><i class="bi bi-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center py-3 border-top">
+      <div class="copyright">
+        © 2026 <strong>AELIORA Hair Salon</strong>. Semua Hak Dilindungi.
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Filter Button -->
+  <script>
+    const filterButtons = document.querySelectorAll('.history-filter button');
+    const historyItems = document.querySelectorAll('.history-item');
+
+    filterButtons.forEach(button => {
+
+      button.addEventListener('click', () => {
+
+        filterButtons.forEach(btn =>
+          btn.classList.remove('active')
+        );
+
+        button.classList.add('active');
+
+        const filter = button.getAttribute('data-filter');
+
+        historyItems.forEach(item => {
+
+          if (
+            filter === 'all' ||
+            item.classList.contains(filter)
+          ) {
+            item.style.display = '';
+          } else {
+            item.style.display = 'none';
+          }
+
+        });
+
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>
